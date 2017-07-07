@@ -1,8 +1,34 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<script src="shoppingList.js"></script>
+		<link rel = "stylesheet" type = "text/css" href = "style.css"/>
 	</head>
 	<body>
+		<div class = "container" id = "bigContainer">
+			<h3> Your Grocery List </h3>
+			<div class = "message">
+				<h4> Here are your groceries for tomorrow! </h4>
+			</div>
+
+			<div class = "listContainer">
+				<ol id = "grocery">
+
+				</ol>
+
+			</div>
+
+			<div class = "addingContainer">
+				<input type="text" id = "newGrocery" placeholder= " Add Your Grocery Item">
+				<br>	
+				<input type="text" id = "newPrice" placeholder= " Add the Price">	
+			</div>
+			<button type = "button" id = "addButton" onClick = "addToList()"> Add! </button> 
+
+			<div class = "totalContainer">
+				<p id = "total"> Total: $23 </p>
+			</div>
+		</div>
+
+		<script src="shoppingList.js"></script>
 	</body>
 </html>

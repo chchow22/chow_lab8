@@ -1,0 +1,59 @@
+.container {
+	background-color: black;
+	border-width: 2px;
+	border-color: green;
+	border-style: solid;
+	width: 35%;
+	height: 500px;
+	position: relative;
+	left: 32.5%;
+	top: 80px;
+}
+
+.listContainer {
+	color: white;
+}
+
+.totalContainer {
+	position: absolute;
+	left: 0;
+	bottom: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+#addButton {
+	color: red;
+	position: relative;
+	left: 11%;
+	top: 10px;
+	width: 81%;
+	height: 30px;
+	font-size: 15px;
+}
+
+h3 {
+	color: grey;
+	position: relative;
+	left: 35%;
+}
+
+h4 {
+	color: red;
+	position: relative;
+	left: 24%;
+}
+
+p {
+	color: white;
+	position: relative;
+}
+
+input {
+	position: relative;
+	left: 10%;
+	width: 80%;
+	height: 30px;
+	margin: 5px;
+	font-size: 20px;
+}
